@@ -1,0 +1,45 @@
+.square{
+    position: absolute;
+    width: 13%;
+    animation-name: move;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.delay{
+    animation-duration: 6.9999s;
+}
+
+.delay1{
+    animation-duration: 6.9998s;
+}
+
+@keyframes move{
+    0%{
+        top: 0px; left:0px;
+    }
+    25%{
+        top: 0px; left: 87%;
+    }
+    50%{
+        top: 87%; left: 87%;
+    }
+    75%{
+        top: 87%; left: 0px;
+    }
+    100%{
+        top: 0px; left: 0px;
+    }
+
+    /* from{
+        left: 0px;
+    }
+
+    50%{
+        bakcground: rgb(146, 211, 2  55);
+    }
+
+    to{
+        left: 100%;
+    } */
+}
