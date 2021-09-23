@@ -29,3 +29,13 @@ setInterval(() => {
   yPosition += ySpeed;
   update();
 }, 1000 / FPS);
+
+function randomColor() { //With fucntion we take a random color to change the fill of the logo
+    let color = "#";
+    color += Math.random().toString(16).slice(2, 8).toUpperCase();
+  
+    return color;
+  }
+  console.log(randomColor());
+  
+  
